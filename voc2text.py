@@ -34,7 +34,7 @@ def convert(size, box):
 
 def convert_annotation(filename):
     in_file = open(ann+filename+'.xml')
-    out_file = open('labels/'+filename+'.txt', 'w')
+    out_file = open('labels/'+filename[:-4]+'.txt', 'w')
     tree=ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
