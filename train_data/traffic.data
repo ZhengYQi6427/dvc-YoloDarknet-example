@@ -1,6 +1,6 @@
 classes= 4
-train  = /train.txt
-valid  = /test.txt
+train  = train.txt
+valid  = test.txt
 names = /train_data/traffic.names
 backup = /backup
 
