@@ -76,7 +76,7 @@ root='YOUR ROOT FOLDER' #the folder of original data
 four_data=['0','1','2','3'] #I rename very long names into shorter names
 #ann_img=['/ann/','/img/'] #not used
 annotation_folder='annotations/' #the folder we store new annotations
-if not os.path.exists('labels/'):
+if not os.path.exists('annotations/'):
     os.mkdir(annotation_folder)
 
 #convert json to voc xml format
