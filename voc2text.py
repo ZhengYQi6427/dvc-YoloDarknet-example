@@ -65,7 +65,6 @@ test=open('test.txt','w')
 
 for annos in os.listdir(ann):
     filename=annos[:-4]
-    print(filename)
     convert_annotation(filename)
     isTrain = np.random.choice([0, 1], 1, p=[0.2, 0.8])[0]
     if isTrain:
