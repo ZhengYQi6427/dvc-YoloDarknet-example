@@ -1,2 +1,2 @@
 numpy
-pickle
+opencv
